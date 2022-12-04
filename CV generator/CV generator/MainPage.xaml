@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CV_generator.MainPage">
+
+    <ScrollView Margin="30">
+        <StackLayout >
+            <StackLayout Orientation="Vertical">
+                <Label Text="Name:"
+                       TextColor="#02c39a"/>
+                <Entry Placeholder="Enter your name"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Age:"
+                       TextColor="#02c39a"/>
+                <Entry Placeholder="Enter your age" />
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Occupation:"
+                       TextColor="#02c39a"/>
+                <Entry Placeholder="Enter your occupation" />
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Contact:"
+                       TextColor="#02c39a"/>
+                <Entry Placeholder="Enter your contact" />
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Skills:"
+                       TextColor="#02c39a"/>
+                <Entry Placeholder="Enter your skills" />
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Languages:"
+                       TextColor="#02c39a"/>
+                <Entry Placeholder="Enter your languages" />
+            </StackLayout>
+            <StackLayout>
+                <Button Text="Submit" 
+                        Clicked="Button_Clicked"    
+                        BackgroundColor="#02c39a"
+                        TextColor="White"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
